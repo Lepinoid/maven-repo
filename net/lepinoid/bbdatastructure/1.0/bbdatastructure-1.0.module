@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.lepinoid",
+    "module": "bbdatastructure",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "5gwl4rumvnbo7ctsgiqenvc254"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bbdatastructure-metadata-1.0-all.jar",
+          "url": "bbdatastructure-1.0-all.jar",
+          "size": 9018,
+          "sha512": "68756aea2d18e7cc1cb3a68dff4cea143414af3dea3786b3014def3d6417baf4af71c827c25bd890da7bdeaf5bf0251ae6897b560ea312668cf536c3718e05f3",
+          "sha256": "1d9123d0c48ac47a3b21fc184bb43ef03db725f036a31b9e6ae57c77719f76fe",
+          "sha1": "ef7547f930e894794127ffc7f623bbfaa4300c26",
+          "md5": "b0f44e49d3d126f5eeb5fcd251f59c50"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bbdatastructure-1.0.jar",
+          "url": "bbdatastructure-1.0.jar",
+          "size": 16528,
+          "sha512": "5ffb9a5254b707b1e517bf5452dda1fc391bd3c29015fff3f08f19e03f17b5a4c137603bc55f540436e7fdffc5c5e121c562f8871e3a71ec94e663b304e013f6",
+          "sha256": "94dd15ad92c8dadd3e9898b6628e2fa86d12e1359d28ec4575d6e5f9058b8bda",
+          "sha1": "a3ddf3691e8bcc8e068c3c6c68b51fac23fd48df",
+          "md5": "0527cb994dc360d4bacb0cf7a137ec01"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../bbdatastructure-js/1.0/bbdatastructure-js-1.0.module",
+        "group": "net.lepinoid",
+        "module": "bbdatastructure-js",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../bbdatastructure-js/1.0/bbdatastructure-js-1.0.module",
+        "group": "net.lepinoid",
+        "module": "bbdatastructure-js",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../bbdatastructure-jvm/1.0/bbdatastructure-jvm-1.0.module",
+        "group": "net.lepinoid",
+        "module": "bbdatastructure-jvm",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../bbdatastructure-jvm/1.0/bbdatastructure-jvm-1.0.module",
+        "group": "net.lepinoid",
+        "module": "bbdatastructure-jvm",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../bbdatastructure-native/1.0/bbdatastructure-native-1.0.module",
+        "group": "net.lepinoid",
+        "module": "bbdatastructure-native",
+        "version": "1.0"
+      }
+    }
+  ]
+}
