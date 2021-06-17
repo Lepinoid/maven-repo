@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.8",
-      "buildId": "5gwl4rumvnbo7ctsgiqenvc254"
+      "buildId": "564tmoi4crfubd26z5rqx4myme"
     }
   },
   "variants": [
@@ -34,11 +34,11 @@
         {
           "name": "bbdatastructure-metadata-1.0-all.jar",
           "url": "bbdatastructure-1.0-all.jar",
-          "size": 9018,
-          "sha512": "68756aea2d18e7cc1cb3a68dff4cea143414af3dea3786b3014def3d6417baf4af71c827c25bd890da7bdeaf5bf0251ae6897b560ea312668cf536c3718e05f3",
-          "sha256": "1d9123d0c48ac47a3b21fc184bb43ef03db725f036a31b9e6ae57c77719f76fe",
-          "sha1": "ef7547f930e894794127ffc7f623bbfaa4300c26",
-          "md5": "b0f44e49d3d126f5eeb5fcd251f59c50"
+          "size": 10463,
+          "sha512": "5a54c2da3e79fa478b4d73ea810fb6c50f14412575f73a1184910b509802e99c0ef13d0332be7d7da1df5f782620f6973b194dbeb2a316350d4b1c21a48a4205",
+          "sha256": "97b179540638eb5ea22ea194dc2ed9c61f9c91433db384d4ed9d2402c6081778",
+          "sha1": "473ae7860f3555d4b50a93053c2962556b935b31",
+          "md5": "b838a14b60b8067e9e3479133bcce7ff"
         }
       ]
     },
@@ -61,11 +61,11 @@
         {
           "name": "bbdatastructure-1.0.jar",
           "url": "bbdatastructure-1.0.jar",
-          "size": 16528,
-          "sha512": "5ffb9a5254b707b1e517bf5452dda1fc391bd3c29015fff3f08f19e03f17b5a4c137603bc55f540436e7fdffc5c5e121c562f8871e3a71ec94e663b304e013f6",
-          "sha256": "94dd15ad92c8dadd3e9898b6628e2fa86d12e1359d28ec4575d6e5f9058b8bda",
-          "sha1": "a3ddf3691e8bcc8e068c3c6c68b51fac23fd48df",
-          "md5": "0527cb994dc360d4bacb0cf7a137ec01"
+          "size": 26611,
+          "sha512": "e312b2c69f67ddf9677f91a839e0a9b2f1dc67b453c26c012f6c39a78a8d277486b9dcfe7750cf0fb813ed0530acdb115c8ed74715bcd205cb5f8eba5ce8f49a",
+          "sha256": "31ec99d1d57042625cf61825414387ba00ba6efdfb0769d3bafd59e55214db39",
+          "sha1": "af26b51b33692f3be13d89ce21b7b7b87cc0ce35",
+          "md5": "c02cc61cf03ee8c16c40a2a79e6425ab"
         }
       ]
     },

@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.8",
-      "buildId": "5gwl4rumvnbo7ctsgiqenvc254"
+      "buildId": "564tmoi4crfubd26z5rqx4myme"
     }
   },
   "variants": [
@@ -44,11 +44,11 @@
         {
           "name": "bbdatastructure.klib",
           "url": "bbdatastructure-native-1.0.klib",
-          "size": 63425,
-          "sha512": "c7ce699f3d2cb3cfacdac737bb2d44577830067225db5e473582252fbdf1e35195d20a6f88376d99aba51e62e1eb7a440a0564c43ac9269a012b160e799c0858",
-          "sha256": "0ed19c1838076220718675e4249e231754968ac12b25657b180b2e3cc233e4cf",
-          "sha1": "17807857a55b32610b92f3c53c8f512925e79e24",
-          "md5": "edb4a8824b982c58dc7f03c9ad25be8f"
+          "size": 94866,
+          "sha512": "7912d95535fb5dcbc8bc11580e226a0358eddf23e4f2cb5b22e37587c4e3f4be3dfe80dbfbacfb01690082880fe2b887a68447b3b6d968123dd72d679ba900f4",
+          "sha256": "6f45a56f15bc922f116699985acd98ea1919f03de9678a958bb017201c446995",
+          "sha1": "5f83b070ccb9cfb0b55bb157bf5db544ac00241b",
+          "md5": "cf867b8cf656ffe1765b516a3063288c"
         }
       ]
     }

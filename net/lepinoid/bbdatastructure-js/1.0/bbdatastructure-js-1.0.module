@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.8",
-      "buildId": "5gwl4rumvnbo7ctsgiqenvc254"
+      "buildId": "564tmoi4crfubd26z5rqx4myme"
     }
   },
   "variants": [
@@ -43,11 +43,11 @@
         {
           "name": "bbdatastructure-js-1.0.jar",
           "url": "bbdatastructure-js-1.0.jar",
-          "size": 28373,
-          "sha512": "3bc82e816c74da87ae61e53be2e97120fb43ce694ff483b76d6bbd34434fd85c1c550a6d4a49f0415d0380a74d15fd9515776a4a290734ead35b9ecfe08a1465",
-          "sha256": "57fcc42aff774f96551b9e13748039125d527e620dee4cb7198632efeb146e99",
-          "sha1": "1171be7bc4de0fd4e9cad7b80e272a08222300f1",
-          "md5": "2b27b3ad0a63de06d43bbce36a8042b1"
+          "size": 34507,
+          "sha512": "37df116757d6b1fdacf9dcca27781f99b06ddbc71727fccbf0ff66b67361752671e2dcf8de7ddd318344e5b0ff0ef72d9277e2ca17c7ebf49b884c4031cd3670",
+          "sha256": "c82e7b1aa189d33fdc439dca1dea56845c775ee7ca1b8ecd54ce3913607d79fd",
+          "sha1": "c85966ea42355ebd858d36db8be7b2eb960d5acd",
+          "md5": "d83159d75b430fd84f757e7db2a13229"
         }
       ]
     },
@@ -85,11 +85,11 @@
         {
           "name": "bbdatastructure-js-1.0.jar",
           "url": "bbdatastructure-js-1.0.jar",
-          "size": 28373,
-          "sha512": "3bc82e816c74da87ae61e53be2e97120fb43ce694ff483b76d6bbd34434fd85c1c550a6d4a49f0415d0380a74d15fd9515776a4a290734ead35b9ecfe08a1465",
-          "sha256": "57fcc42aff774f96551b9e13748039125d527e620dee4cb7198632efeb146e99",
-          "sha1": "1171be7bc4de0fd4e9cad7b80e272a08222300f1",
-          "md5": "2b27b3ad0a63de06d43bbce36a8042b1"
+          "size": 34507,
+          "sha512": "37df116757d6b1fdacf9dcca27781f99b06ddbc71727fccbf0ff66b67361752671e2dcf8de7ddd318344e5b0ff0ef72d9277e2ca17c7ebf49b884c4031cd3670",
+          "sha256": "c82e7b1aa189d33fdc439dca1dea56845c775ee7ca1b8ecd54ce3913607d79fd",
+          "sha1": "c85966ea42355ebd858d36db8be7b2eb960d5acd",
+          "md5": "d83159d75b430fd84f757e7db2a13229"
         }
       ]
     }
