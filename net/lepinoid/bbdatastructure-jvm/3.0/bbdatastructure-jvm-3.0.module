@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../bbdatastructure/3.0/bbdatastructure-3.0.module",
+    "group": "net.lepinoid",
+    "module": "bbdatastructure",
+    "version": "3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "k7w6k3jjgbfz5d354hfxaxqfnu"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bbdatastructure-jvm-3.0.jar",
+          "url": "bbdatastructure-jvm-3.0.jar",
+          "size": 139045,
+          "sha512": "070daf1c569503cd2b7bc5e523fb156afa8ae04724e42593d43a6b33ed2a3c1590bf94fce5e66910dc6b7172bc7da9594bf274bc5ee45dd2df1963a2a9f72d0a",
+          "sha256": "48a08c90308887af854d35bfc07dc56074c5d023ee7bec13ab311683ecdf1476",
+          "sha1": "f4099e010b9e4bae600f9a92c19aec66939f8bf7",
+          "md5": "ae8cc7ad56284aac3d12fb2af91d5614"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bbdatastructure-jvm-3.0.jar",
+          "url": "bbdatastructure-jvm-3.0.jar",
+          "size": 139045,
+          "sha512": "070daf1c569503cd2b7bc5e523fb156afa8ae04724e42593d43a6b33ed2a3c1590bf94fce5e66910dc6b7172bc7da9594bf274bc5ee45dd2df1963a2a9f72d0a",
+          "sha256": "48a08c90308887af854d35bfc07dc56074c5d023ee7bec13ab311683ecdf1476",
+          "sha1": "f4099e010b9e4bae600f9a92c19aec66939f8bf7",
+          "md5": "ae8cc7ad56284aac3d12fb2af91d5614"
+        }
+      ]
+    }
+  ]
+}
