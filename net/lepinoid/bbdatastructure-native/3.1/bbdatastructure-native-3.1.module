@@ -1,0 +1,56 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../bbdatastructure/3.1/bbdatastructure-3.1.module",
+    "group": "net.lepinoid",
+    "module": "bbdatastructure",
+    "version": "3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "zcafpatkdzhjzl4aiad4l4diea"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bbdatastructure.klib",
+          "url": "bbdatastructure-native-3.1.klib",
+          "size": 98566,
+          "sha512": "beb4b52daf0b22e7f237b3b9379788dab900361d23712a4b11a0d88571a828553ff4a46f6c29ab581c04b12277dd9440ac36da0f0d33ce30490238ffc8e653e9",
+          "sha256": "d19685edcc58052b010305ff06798458be4591b1ce41c50089b2a12b8275338c",
+          "sha1": "f0cefe945cb13766deeb4a8dffc5dedf2a2fa44a",
+          "md5": "30006ced76805b979f68672096619ee4"
+        }
+      ]
+    }
+  ]
+}

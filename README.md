@@ -2,5 +2,5 @@
 
 | Name            | ArtifactId      | LatestVersion |
 | --------------- | --------------- | ------------- |
-| BbDataStructure | bbdatastructure | 3.0           |
+| BbDataStructure | bbdatastructure | 3.1           |
 
