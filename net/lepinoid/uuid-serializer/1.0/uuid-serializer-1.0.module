@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.lepinoid",
+    "module": "uuid-serializer",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uuid-serializer-metadata-1.0-all.jar",
+          "url": "uuid-serializer-1.0-all.jar",
+          "size": 3490,
+          "sha512": "1e216274b77a12c177278438880320a3648e36a5ad9bd86df4330e6d1d92727487e8615326ae2eaa88e1687c1326de7377ffa029edaf820235c2235f3b96abcb",
+          "sha256": "6f6a51311188ff51886db2ad538ff7fde3a610cadc6b5be2c8651db62decdcf7",
+          "sha1": "d44d45ae658dd3a26df3298e6b99a940e2b39405",
+          "md5": "41a504b7d98054e5fbe9784f4c9e60ea"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uuid-serializer-1.0.jar",
+          "url": "uuid-serializer-1.0.jar",
+          "size": 1260,
+          "sha512": "6d8a69ecd64e10853fb5e7b7a6d030a4241d96a17ccb5a9d745d70992c525b588e013112b898714a62d4036dc604233cf202ad33cbc0444e0d08ff50b6081118",
+          "sha256": "1750b903c50ee79815305bc88942a065e2964f034806653aee6dc6fcc7b22497",
+          "sha1": "6544db24696d12da810a0268ed60f65058defe88",
+          "md5": "e50ec8320c413eb69b7e598080e5d7a7"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../uuid-serializer-js/1.0/uuid-serializer-js-1.0.module",
+        "group": "net.lepinoid",
+        "module": "uuid-serializer-js",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../uuid-serializer-js/1.0/uuid-serializer-js-1.0.module",
+        "group": "net.lepinoid",
+        "module": "uuid-serializer-js",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../uuid-serializer-jvm/1.0/uuid-serializer-jvm-1.0.module",
+        "group": "net.lepinoid",
+        "module": "uuid-serializer-jvm",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../uuid-serializer-jvm/1.0/uuid-serializer-jvm-1.0.module",
+        "group": "net.lepinoid",
+        "module": "uuid-serializer-jvm",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../uuid-serializer-native/1.0/uuid-serializer-native-1.0.module",
+        "group": "net.lepinoid",
+        "module": "uuid-serializer-native",
+        "version": "1.0"
+      }
+    }
+  ]
+}

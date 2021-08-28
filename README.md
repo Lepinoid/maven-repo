@@ -3,4 +3,5 @@
 | Name            | ArtifactId      | LatestVersion |
 | --------------- | --------------- | ------------- |
 | BbDataStructure | bbdatastructure | 3.1           |
+| uuid-serializer | uuid-serializer | 1.0           |
 
