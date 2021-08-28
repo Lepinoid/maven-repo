@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../bb-data-structure/4.0/bb-data-structure-4.0.module",
+    "group": "net.lepinoid",
+    "module": "bb-data-structure",
+    "version": "4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "ad2xan7egncchcoogl6c4acjpi"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bb-data-structure-jvm-4.0.jar",
+          "url": "bb-data-structure-jvm-4.0.jar",
+          "size": 145416,
+          "sha512": "68da8ecf152623a707a4f80d2e69e6bf3840236bc30a7d069a4bf2b3bbe6c258640246f88dd0df603fbb9b73e61dacd4ac008724894eb68f09d174dbeea698ed",
+          "sha256": "983aa192b3793e6319b49af26fe42e03879b3c5ff9fad7c678b28ca63d240b2b",
+          "sha1": "63f3c57764607ff4bfc2477a8fb8919b5b3f02d8",
+          "md5": "202caa83db5b8ca563846b98b7048b95"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "uuid-serializer",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bb-data-structure-jvm-4.0.jar",
+          "url": "bb-data-structure-jvm-4.0.jar",
+          "size": 145416,
+          "sha512": "68da8ecf152623a707a4f80d2e69e6bf3840236bc30a7d069a4bf2b3bbe6c258640246f88dd0df603fbb9b73e61dacd4ac008724894eb68f09d174dbeea698ed",
+          "sha256": "983aa192b3793e6319b49af26fe42e03879b3c5ff9fad7c678b28ca63d240b2b",
+          "sha1": "63f3c57764607ff4bfc2477a8fb8919b5b3f02d8",
+          "md5": "202caa83db5b8ca563846b98b7048b95"
+        }
+      ]
+    }
+  ]
+}
