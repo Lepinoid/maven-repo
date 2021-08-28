@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../model-meta/1.0/model-meta-1.0.module",
+    "group": "net.lepinoid",
+    "module": "model-meta",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "uuid-serializer",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "bbdatastructure",
+          "version": {
+            "requires": "3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta.klib",
+          "url": "model-meta-native-1.0.klib",
+          "size": 15747,
+          "sha512": "e6fad13f85c742086c8604b5378dfe2eed4c139ed79f1683858e71bcf3b588a8ef91f711f9378e880dadba906eb19c307810d460926ba0bc7a83702d7775fa91",
+          "sha256": "51679705bc58c7afae90f9b060a0a2044d6d06e215830c2e00d40850013f84d1",
+          "sha1": "b30d3a6920645c6185e564ea81861c490db20e5c",
+          "md5": "7c9010e12c60ae73513c7b95aa293931"
+        }
+      ]
+    }
+  ]
+}

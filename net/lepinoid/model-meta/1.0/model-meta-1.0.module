@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.lepinoid",
+    "module": "model-meta",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta-metadata-1.0-all.jar",
+          "url": "model-meta-1.0-all.jar",
+          "size": 4405,
+          "sha512": "7a95bfb1c578e790ea8d25f2aaa8c40d6b84c6e181c8eb418a080b3049768acbdb2b56c596ab76ffa7ffd50fa1ada2e770043a53b7dfd754298bec1643f5f309",
+          "sha256": "a6b488f0ac33ec3c61a56575f4a607d0880abeeeb1698667385a94d805c020e9",
+          "sha1": "831ef4b99c5fe5023003209193e499a4e67e64e9",
+          "md5": "3edf8e2f810c4fde18ca935d74ba1183"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta-1.0.jar",
+          "url": "model-meta-1.0.jar",
+          "size": 3924,
+          "sha512": "61a55cbf21ef70c0f82969397809258b81aa53db6c7cf741ae584abe9891d065f8d4ccf01d570a9cc805a0db6a875025a50cec30315e359d8950c0f8c8985c92",
+          "sha256": "5276fbc65f2bcae3da1f68860c19b8dd1425d0112d125cdf408e0c64b6365653",
+          "sha1": "791b1e275ba0df9c13d7201d6ff7e4a89a7af647",
+          "md5": "fc896da675ad89fac006f55c6c40c246"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../model-meta-js/1.0/model-meta-js-1.0.module",
+        "group": "net.lepinoid",
+        "module": "model-meta-js",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../model-meta-js/1.0/model-meta-js-1.0.module",
+        "group": "net.lepinoid",
+        "module": "model-meta-js",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../model-meta-jvm/1.0/model-meta-jvm-1.0.module",
+        "group": "net.lepinoid",
+        "module": "model-meta-jvm",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../model-meta-jvm/1.0/model-meta-jvm-1.0.module",
+        "group": "net.lepinoid",
+        "module": "model-meta-jvm",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../model-meta-native/1.0/model-meta-native-1.0.module",
+        "group": "net.lepinoid",
+        "module": "model-meta-native",
+        "version": "1.0"
+      }
+    }
+  ]
+}
