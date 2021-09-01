@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../model-meta/1.1/model-meta-1.1.module",
+    "group": "net.lepinoid",
+    "module": "model-meta",
+    "version": "1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.5.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta-js-1.1.jar",
+          "url": "model-meta-js-1.1.jar",
+          "size": 7536,
+          "sha512": "59fe5519974b2f3e01e500798dca8461290283f5324dc6e9373d99290d993702ada7db4f66385bb277ddbc0c938648c6533f30bc987cdc072d885156bfaa11c3",
+          "sha256": "4db1067949acb6c50afb028ee503cec5bc9a0a9b0c7040dba6586218dbcd1f2b",
+          "sha1": "66dbdeb8917eb8421555d6f4ef9131db1e6b1a1d",
+          "md5": "a32538f70353d774c28ad964565a5c80"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "uuid-serializer",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "bb-data-structure",
+          "version": {
+            "requires": "4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta-js-1.1.jar",
+          "url": "model-meta-js-1.1.jar",
+          "size": 7536,
+          "sha512": "59fe5519974b2f3e01e500798dca8461290283f5324dc6e9373d99290d993702ada7db4f66385bb277ddbc0c938648c6533f30bc987cdc072d885156bfaa11c3",
+          "sha256": "4db1067949acb6c50afb028ee503cec5bc9a0a9b0c7040dba6586218dbcd1f2b",
+          "sha1": "66dbdeb8917eb8421555d6f4ef9131db1e6b1a1d",
+          "md5": "a32538f70353d774c28ad964565a5c80"
+        }
+      ]
+    }
+  ]
+}

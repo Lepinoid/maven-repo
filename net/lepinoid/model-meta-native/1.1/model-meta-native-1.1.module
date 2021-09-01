@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../model-meta/1.1/model-meta-1.1.module",
+    "group": "net.lepinoid",
+    "module": "model-meta",
+    "version": "1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "uuid-serializer",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "bb-data-structure",
+          "version": {
+            "requires": "4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta.klib",
+          "url": "model-meta-native-1.1.klib",
+          "size": 16226,
+          "sha512": "63fb37c7545e12a0833af525ae4dad9d9a4edc983ff228edc7c7e3758b7ab43f65351fafae846cee0b389d687c24b8e2da71d7cc502595c925bfc2810b959fc7",
+          "sha256": "a28e542907bcdde62be56c7095b167c01fdbc2fdd3bbcfa93129f4398b31c395",
+          "sha1": "a96b0a5098302ed79934d0cf0b7304fc948010fd",
+          "md5": "d71120be7a74e020cf3680dacbdd5318"
+        }
+      ]
+    }
+  ]
+}
