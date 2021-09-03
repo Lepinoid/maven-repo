@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../model-meta/2.0/model-meta-2.0.module",
+    "group": "net.lepinoid",
+    "module": "model-meta",
+    "version": "2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "uuid-serializer",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "bb-data-structure",
+          "version": {
+            "requires": "4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta.klib",
+          "url": "model-meta-native-2.0.klib",
+          "size": 14421,
+          "sha512": "e398b5b753c5cc68b22968c205e774ad350a08c4e2633ae88bb5fa9f52d7171f18a7ae7b2e41f76ac65291ff1773066a5e53cf54fb6fbd248ef57d1810bbc41c",
+          "sha256": "90e607a71d2bb5acfee695e0362e79d8d8dcdaed723cb9bc19c17dc1413eef6c",
+          "sha1": "81001663f98de407d2855ac0f91bdb6dc719ffc0",
+          "md5": "fde44b7d7f8ddaf5b757fa1619e12439"
+        }
+      ]
+    }
+  ]
+}
