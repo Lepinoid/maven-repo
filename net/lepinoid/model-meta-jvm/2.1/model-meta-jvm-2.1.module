@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../model-meta/2.1/model-meta-2.1.module",
+    "group": "net.lepinoid",
+    "module": "model-meta",
+    "version": "2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta-jvm-2.1.jar",
+          "url": "model-meta-jvm-2.1.jar",
+          "size": 13722,
+          "sha512": "88b6874c276718f338e3dfeb2b7b8083f880c5200ac4bb9579745f8a568c859fc06d80cf255f724aecfb00347787ec50c9b21f861f56c25910c345f701090540",
+          "sha256": "c7da8486c365da4758b29afc2c7a1df2c9d819a460eec47975c3a97c12d29746",
+          "sha1": "57c9faa3c21773a2b87b026e9626416818af6359",
+          "md5": "a74958bc025c45151bdc3da9b157ec74"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "uuid-serializer",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "bb-data-structure",
+          "version": {
+            "requires": "4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta-jvm-2.1.jar",
+          "url": "model-meta-jvm-2.1.jar",
+          "size": 13722,
+          "sha512": "88b6874c276718f338e3dfeb2b7b8083f880c5200ac4bb9579745f8a568c859fc06d80cf255f724aecfb00347787ec50c9b21f861f56c25910c345f701090540",
+          "sha256": "c7da8486c365da4758b29afc2c7a1df2c9d819a460eec47975c3a97c12d29746",
+          "sha1": "57c9faa3c21773a2b87b026e9626416818af6359",
+          "md5": "a74958bc025c45151bdc3da9b157ec74"
+        }
+      ]
+    }
+  ]
+}

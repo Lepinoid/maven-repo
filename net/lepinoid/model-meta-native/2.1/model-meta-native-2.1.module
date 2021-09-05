@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../model-meta/2.1/model-meta-2.1.module",
+    "group": "net.lepinoid",
+    "module": "model-meta",
+    "version": "2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "uuid-serializer",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "bb-data-structure",
+          "version": {
+            "requires": "4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta.klib",
+          "url": "model-meta-native-2.1.klib",
+          "size": 14596,
+          "sha512": "94a1ebf589b4f8149fe17205cb56769714bc385081ee28bcb034c297624d28f67e20e6b66e32b06ab3342e6d51ac5118ded992cb91e22f6749baa26ba29b370b",
+          "sha256": "ba7d3958adef088700ba894211269a3f36267b0b6ae861797dceddd6e9204c61",
+          "sha1": "5873cf025804c0d45879149999976ab573965f09",
+          "md5": "e46ee48656f5e6d05bea4cb488177770"
+        }
+      ]
+    }
+  ]
+}
