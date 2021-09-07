@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../model-meta/2.2/model-meta-2.2.module",
+    "group": "net.lepinoid",
+    "module": "model-meta",
+    "version": "2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "uuid-serializer",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "bb-data-structure",
+          "version": {
+            "requires": "4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta.klib",
+          "url": "model-meta-native-2.2.klib",
+          "size": 14778,
+          "sha512": "5d0d78f6fec25076f40e2c87974bc9755be0e5b394d0e3e285f4ad97db87173700c68a194ff6274e83338414cad87f390151f6f63b00e3c3e2a4b0b6201f21c2",
+          "sha256": "49854db65d30aa92f4b9b9ba42b458a5c6de6b494a129127e14c5bf9d94d2059",
+          "sha1": "46979028d576686fd9d6551598633637fff45960",
+          "md5": "ac4bf41f304108e3d5d2334c4d0f5a3a"
+        }
+      ]
+    }
+  ]
+}
