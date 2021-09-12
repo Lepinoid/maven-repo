@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.lepinoid",
+    "module": "cmdlib",
+    "version": "1.17.1+1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cmdlib-1.17.1+1.jar",
+          "url": "cmdlib-1.17.1+1.jar",
+          "size": 16429,
+          "sha512": "63d50831fc0a2c8d5e55916b711a4129fb63376598e26322c69a61d78aa2e478ae80aaa57a9a5498d04cd1fce27dd1f5d30a3ceccb41060df27acccba2bbcef3",
+          "sha256": "ef1f40a03f257283ff363c263c864b71c099cb50d2355a71709535a5fd83b378",
+          "sha1": "b082bc6010685297c7159d40f069c0b6f5f86861",
+          "md5": "3b2b7bc627b40e6492f889fe8d642cdf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.papermc.paper",
+          "module": "paper-api",
+          "version": {
+            "requires": "1.17.1-R0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.papermc.paper",
+          "module": "paper-mojangapi",
+          "version": {
+            "requires": "1.17.1-R0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.spigotmc",
+          "module": "spigot",
+          "version": {
+            "requires": "1.17.1-R0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cmdlib-1.17.1+1.jar",
+          "url": "cmdlib-1.17.1+1.jar",
+          "size": 16429,
+          "sha512": "63d50831fc0a2c8d5e55916b711a4129fb63376598e26322c69a61d78aa2e478ae80aaa57a9a5498d04cd1fce27dd1f5d30a3ceccb41060df27acccba2bbcef3",
+          "sha256": "ef1f40a03f257283ff363c263c864b71c099cb50d2355a71709535a5fd83b378",
+          "sha1": "b082bc6010685297c7159d40f069c0b6f5f86861",
+          "md5": "3b2b7bc627b40e6492f889fe8d642cdf"
+        }
+      ]
+    }
+  ]
+}
