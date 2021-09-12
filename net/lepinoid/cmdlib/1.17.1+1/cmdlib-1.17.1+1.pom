@@ -9,6 +9,12 @@
   <groupId>net.lepinoid</groupId>
   <artifactId>cmdlib</artifactId>
   <version>1.17.1+1</version>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://raw.githubusercontent.com/Lepinoid/cmdlib/develop/LICENSE</url>
+    </license>
+  </licenses>
   <dependencies>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
