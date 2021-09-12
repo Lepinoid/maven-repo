@@ -22,23 +22,5 @@
       <version>1.5.30</version>
       <scope>compile</scope>
     </dependency>
-    <dependency>
-      <groupId>io.papermc.paper</groupId>
-      <artifactId>paper-api</artifactId>
-      <version>1.17.1-R0.1-SNAPSHOT</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.papermc.paper</groupId>
-      <artifactId>paper-mojangapi</artifactId>
-      <version>1.17.1-R0.1-SNAPSHOT</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.spigotmc</groupId>
-      <artifactId>spigot</artifactId>
-      <version>1.17.1-R0.1-SNAPSHOT</version>
-      <scope>runtime</scope>
-    </dependency>
   </dependencies>
 </project>

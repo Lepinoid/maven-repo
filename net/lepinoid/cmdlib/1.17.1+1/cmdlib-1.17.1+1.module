@@ -59,27 +59,6 @@
       },
       "dependencies": [
         {
-          "group": "io.papermc.paper",
-          "module": "paper-api",
-          "version": {
-            "requires": "1.17.1-R0.1-SNAPSHOT"
-          }
-        },
-        {
-          "group": "io.papermc.paper",
-          "module": "paper-mojangapi",
-          "version": {
-            "requires": "1.17.1-R0.1-SNAPSHOT"
-          }
-        },
-        {
-          "group": "org.spigotmc",
-          "module": "spigot",
-          "version": {
-            "requires": "1.17.1-R0.1-SNAPSHOT"
-          }
-        },
-        {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-jdk8",
           "version": {
