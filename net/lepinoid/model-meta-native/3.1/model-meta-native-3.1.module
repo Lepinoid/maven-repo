@@ -56,7 +56,7 @@
           "group": "net.lepinoid",
           "module": "bb-data-structure",
           "version": {
-            "requires": "0.1.0"
+            "requires": "0.1.1"
           }
         }
       ],

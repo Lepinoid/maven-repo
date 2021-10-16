@@ -20,13 +20,13 @@
   <dependencies>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
-      <artifactId>kotlin-stdlib-js</artifactId>
+      <artifactId>kotlin-stdlib-common</artifactId>
       <version>1.5.30</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
-      <artifactId>kotlin-stdlib-common</artifactId>
+      <artifactId>kotlin-stdlib-js</artifactId>
       <version>1.5.30</version>
       <scope>compile</scope>
     </dependency>
@@ -51,7 +51,7 @@
     <dependency>
       <groupId>net.lepinoid</groupId>
       <artifactId>bb-data-structure-js</artifactId>
-      <version>0.1.0</version>
+      <version>0.1.1</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
