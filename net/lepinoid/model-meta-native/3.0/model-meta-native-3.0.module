@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../model-meta/3.0/model-meta-3.0.module",
+    "group": "net.lepinoid",
+    "module": "model-meta",
+    "version": "3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "uuid-serializer",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "bb-data-structure",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta.klib",
+          "url": "model-meta-native-3.0.klib",
+          "size": 14807,
+          "sha512": "6a75b11726586e73d773ecd8bdd160e99755db4fd48a7eb210e12740d1366da4284a738a8b4ece6dbaf46a5fdbcd8fb8c55404dd968263ccb85d723d9bcf2c3d",
+          "sha256": "3cf862efe722b115677f57a4d83877c32b818a34899090ff1acf2af8cc832b8e",
+          "sha1": "e4237dbe60d979d6680cbce17fac7b8e7c901f5d",
+          "md5": "0989d2ed5e928e0f8ec6a5dfeb13ffa7"
+        }
+      ]
+    }
+  ]
+}
