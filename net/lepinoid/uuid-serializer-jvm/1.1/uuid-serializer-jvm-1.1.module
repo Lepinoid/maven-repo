@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../uuid-serializer/1.1/uuid-serializer-1.1.module",
+    "group": "net.lepinoid",
+    "module": "uuid-serializer",
+    "version": "1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uuid-serializer-jvm-1.1.jar",
+          "url": "uuid-serializer-jvm-1.1.jar",
+          "size": 2246,
+          "sha512": "bdf94dee284541c128aaf7faeaafe8edaba4fce002b0b5952b1d028b7eba5553fc67236b470dec7796a31c21314d06f8438a55395da559986c6c4f60cab1ade8",
+          "sha256": "cf1384fafc413d4a5d8b975797f851a2bc1367accc373adb37dc298591309735",
+          "sha1": "33adfe2bc90126fb152faad77a8c6cc15ad04a5b",
+          "md5": "c5cfe0a7decd8faaea82f90f2d2668d2"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uuid-serializer-jvm-1.1.jar",
+          "url": "uuid-serializer-jvm-1.1.jar",
+          "size": 2246,
+          "sha512": "bdf94dee284541c128aaf7faeaafe8edaba4fce002b0b5952b1d028b7eba5553fc67236b470dec7796a31c21314d06f8438a55395da559986c6c4f60cab1ade8",
+          "sha256": "cf1384fafc413d4a5d8b975797f851a2bc1367accc373adb37dc298591309735",
+          "sha1": "33adfe2bc90126fb152faad77a8c6cc15ad04a5b",
+          "md5": "c5cfe0a7decd8faaea82f90f2d2668d2"
+        }
+      ]
+    }
+  ]
+}
