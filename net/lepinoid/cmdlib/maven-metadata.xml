@@ -3,11 +3,12 @@
   <groupId>net.lepinoid</groupId>
   <artifactId>cmdlib</artifactId>
   <versioning>
-    <latest>1.17.1+1</latest>
-    <release>1.17.1+1</release>
+    <latest>1.18.2+1</latest>
+    <release>1.18.2+1</release>
     <versions>
       <version>1.17.1+1</version>
+      <version>1.18.2+1</version>
     </versions>
-    <lastUpdated>20210912033544</lastUpdated>
+    <lastUpdated>20220611140904</lastUpdated>
   </versioning>
 </metadata>

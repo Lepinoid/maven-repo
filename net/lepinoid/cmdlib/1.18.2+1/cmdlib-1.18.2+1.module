@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.lepinoid",
+    "module": "cmdlib",
+    "version": "1.18.2+1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cmdlib-1.18.2+1-dev.jar",
+          "url": "cmdlib-1.18.2+1-dev.jar",
+          "size": 131991,
+          "sha512": "3a1099adcc76e04eec3314fdf46be499ca86de2d432f3643813439e3ba1f2b5b54f4615b8345c9926fcfda3ac326a33fc9388d567ffdad0594c3e100600093bc",
+          "sha256": "f9988151e51f6beef61c8d3b3b2240b0fd87c65511b338912c3c3ee2ebd7847e",
+          "sha1": "3784108798cc5f9a33748180afd90bef8e6ede4d",
+          "md5": "899c7b2b535f891dbb7f07581e739f88"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cmdlib-1.18.2+1-dev.jar",
+          "url": "cmdlib-1.18.2+1-dev.jar",
+          "size": 131991,
+          "sha512": "3a1099adcc76e04eec3314fdf46be499ca86de2d432f3643813439e3ba1f2b5b54f4615b8345c9926fcfda3ac326a33fc9388d567ffdad0594c3e100600093bc",
+          "sha256": "f9988151e51f6beef61c8d3b3b2240b0fd87c65511b338912c3c3ee2ebd7847e",
+          "sha1": "3784108798cc5f9a33748180afd90bef8e6ede4d",
+          "md5": "899c7b2b535f891dbb7f07581e739f88"
+        }
+      ]
+    }
+  ]
+}
