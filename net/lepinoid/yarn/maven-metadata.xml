@@ -3,12 +3,13 @@
   <groupId>net.lepinoid</groupId>
   <artifactId>yarn</artifactId>
   <versioning>
-    <latest>1.19-rc2+build.2</latest>
-    <release>1.19-rc2+build.2</release>
+    <latest>1.19+build.3</latest>
+    <release>1.19+build.3</release>
     <versions>
       <version>1.18.2+build.1</version>
       <version>1.19-rc2+build.2</version>
+      <version>1.19+build.3</version>
     </versions>
-    <lastUpdated>20220726082842</lastUpdated>
+    <lastUpdated>20220726143446</lastUpdated>
   </versioning>
 </metadata>
