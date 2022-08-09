@@ -72,10 +72,10 @@
           "name": "model-meta-js-build.1.klib",
           "url": "model-meta-js-build.1.klib",
           "size": 13155,
-          "sha512": "964d4fc35e9dd54ca7d1eb360b6dc0153ba6883eb5af175d5c276b52a42f2bccb45340e07181ce647e6870b1987cfdd8736f26e7b3d1a3e47453f95d89f93e3a",
-          "sha256": "d577c07182ea32337a6392f11dd9e07571e60522e8b0b20cd0c6592848748e9d",
-          "sha1": "8bc40f2613cddc96dbdddaeee113d65da98537a9",
-          "md5": "7cf28b28db3d057caefcdd919033b617"
+          "sha512": "1351ec0694ed64b31c6e810d881d1dd697b9b899b41fb9bf31a0387e2bad7b1960ae1115d539136b7328198eb5b2f18a781d75a8d7a8c476fdd3d0147e7ee718",
+          "sha256": "3faa22336dd8fc98dadace93a147fa24f8bf668666a597bf77a783f042d5fd58",
+          "sha1": "0def96966b0f58e8d1f31f2eefae5387061175d3",
+          "md5": "c5a5801d0660fd9604f1ea8993d24412"
         }
       ]
     },
@@ -136,10 +136,10 @@
           "name": "model-meta-js-build.1.klib",
           "url": "model-meta-js-build.1.klib",
           "size": 13155,
-          "sha512": "964d4fc35e9dd54ca7d1eb360b6dc0153ba6883eb5af175d5c276b52a42f2bccb45340e07181ce647e6870b1987cfdd8736f26e7b3d1a3e47453f95d89f93e3a",
-          "sha256": "d577c07182ea32337a6392f11dd9e07571e60522e8b0b20cd0c6592848748e9d",
-          "sha1": "8bc40f2613cddc96dbdddaeee113d65da98537a9",
-          "md5": "7cf28b28db3d057caefcdd919033b617"
+          "sha512": "1351ec0694ed64b31c6e810d881d1dd697b9b899b41fb9bf31a0387e2bad7b1960ae1115d539136b7328198eb5b2f18a781d75a8d7a8c476fdd3d0147e7ee718",
+          "sha256": "3faa22336dd8fc98dadace93a147fa24f8bf668666a597bf77a783f042d5fd58",
+          "sha1": "0def96966b0f58e8d1f31f2eefae5387061175d3",
+          "md5": "c5a5801d0660fd9604f1ea8993d24412"
         }
       ]
     }

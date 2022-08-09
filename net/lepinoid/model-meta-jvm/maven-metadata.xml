@@ -3,8 +3,8 @@
   <groupId>net.lepinoid</groupId>
   <artifactId>model-meta-jvm</artifactId>
   <versioning>
-    <latest>build.2</latest>
-    <release>build.2</release>
+    <latest>build.1</latest>
+    <release>build.1</release>
     <versions>
       <version>1.0</version>
       <version>1.1</version>
@@ -16,6 +16,6 @@
       <version>build.1</version>
       <version>build.2</version>
     </versions>
-    <lastUpdated>20220809092342</lastUpdated>
+    <lastUpdated>20220809093318</lastUpdated>
   </versioning>
 </metadata>

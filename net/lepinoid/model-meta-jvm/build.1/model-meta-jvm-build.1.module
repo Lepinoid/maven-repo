@@ -44,10 +44,10 @@
           "name": "model-meta-jvm-build.1.jar",
           "url": "model-meta-jvm-build.1.jar",
           "size": 14264,
-          "sha512": "6a17a863a6c4df03d055e5cbd2aeeb35aeb3e5b6023cb070b8a4aa222cf13024b44aaf78131d07e26047b98a94231f51034f4cdcdd99cb1987314147656f3067",
-          "sha256": "1a76c49a92f812129c13f3011e6212b63cf49f1c344101d4a7f1e8558b079164",
-          "sha1": "9d6a9b06141df8632d59939f52a4d5f06948bc87",
-          "md5": "f48bdbd05e1c8adba0e385dbb2e7039e"
+          "sha512": "6ace6522fbedfcae6eb79e44f10f9b95bebb1b5299149bd30bae390715d3c204a6a0c8e2cd2b128835dd2bab89aca5bb177ee37984796f1a9fcb9a9266a81b3c",
+          "sha256": "a3e0749fe4bea1b10a5b78ecc6e1927e50bad9845b1ae96c1736353cd10217c8",
+          "sha1": "70fd4893487c5941c30dc2ea8e53ca0cc4ddf9d7",
+          "md5": "856e0cf226eb17c28e655c7cec7aef73"
         }
       ]
     },
@@ -108,10 +108,10 @@
           "name": "model-meta-jvm-build.1.jar",
           "url": "model-meta-jvm-build.1.jar",
           "size": 14264,
-          "sha512": "6a17a863a6c4df03d055e5cbd2aeeb35aeb3e5b6023cb070b8a4aa222cf13024b44aaf78131d07e26047b98a94231f51034f4cdcdd99cb1987314147656f3067",
-          "sha256": "1a76c49a92f812129c13f3011e6212b63cf49f1c344101d4a7f1e8558b079164",
-          "sha1": "9d6a9b06141df8632d59939f52a4d5f06948bc87",
-          "md5": "f48bdbd05e1c8adba0e385dbb2e7039e"
+          "sha512": "6ace6522fbedfcae6eb79e44f10f9b95bebb1b5299149bd30bae390715d3c204a6a0c8e2cd2b128835dd2bab89aca5bb177ee37984796f1a9fcb9a9266a81b3c",
+          "sha256": "a3e0749fe4bea1b10a5b78ecc6e1927e50bad9845b1ae96c1736353cd10217c8",
+          "sha1": "70fd4893487c5941c30dc2ea8e53ca0cc4ddf9d7",
+          "md5": "856e0cf226eb17c28e655c7cec7aef73"
         }
       ]
     }
