@@ -35,10 +35,10 @@
           "name": "model-meta-metadata-build.1.jar",
           "url": "model-meta-build.1.jar",
           "size": 4316,
-          "sha512": "3a3bc9f4b15f573e8b78fb95a5b57aa2d25c9b405e897d11b9d9b9ac4a62ce402408cbd54a0089ed250499e196fd3b00a09f22356a87e68591d0ac9ea4310129",
-          "sha256": "399c47d9d5c5d34edf798096838f9277bb37834ecf0095ec0fb1658fd5bdc49a",
-          "sha1": "879eb2a94c2451ba3f51902c325faa82ddd5c9d7",
-          "md5": "6e3fb83205fae94171a8c0258b89fc9c"
+          "sha512": "940f00f941007862e4ceefe927d454e6be29357c8e90c36e90954ab97ce71b27df17947448d6b080a0d5325a65304073a50d564747d32537f4f101eaa4c802a0",
+          "sha256": "243a533909875d598a41fea78d75d79224b71c3398dee5dc005bd09682aa68c5",
+          "sha1": "850a52622570a7560b21d311c7064a2b0a799216",
+          "md5": "e5294e2132023d9d093e32c5a1f27225"
         }
       ]
     },

@@ -65,11 +65,11 @@
         {
           "name": "model-meta.klib",
           "url": "model-meta-native-build.1.klib",
-          "size": 15473,
-          "sha512": "445362aa476970dfeedf7e462ee936df3adef75c7ff866b875129395dadfafa01a01f1427420e02a8d7138ae00e91fa9ea331b6ef1e834b822814b93db63c28f",
-          "sha256": "39d0842bbd0369dc5916ba6b69ccada2a36c080c959ee351dba73cad52977ffe",
-          "sha1": "4f66af718662ef1fee92bad281de70f0c5c46462",
-          "md5": "75252d0b18648cbe29cde940d19d463e"
+          "size": 15475,
+          "sha512": "56f84dbe194352631a297171911e3fa4bf432dde23a0cb53561f3229b132837dd336c0949fb2697b8928fad7922dd9da28a52ca84ad9a4ee2771ff7b71971aaf",
+          "sha256": "7ed86207721369a83627c3feab316680fe273d568b5824456a69d81c150a7d76",
+          "sha1": "71d39abadb94eb8c7a1c71fc7a20870b2d57596e",
+          "md5": "7ee95e878994a6986f5c061372afe2c4"
         }
       ]
     }
