@@ -3,8 +3,8 @@
   <groupId>net.lepinoid</groupId>
   <artifactId>model-meta-native</artifactId>
   <versioning>
-    <latest>build.5</latest>
-    <release>build.5</release>
+    <latest>build.6</latest>
+    <release>build.6</release>
     <versions>
       <version>1.0</version>
       <version>1.1</version>
@@ -17,7 +17,8 @@
       <version>build.2</version>
       <version>build.4</version>
       <version>build.5</version>
+      <version>build.6</version>
     </versions>
-    <lastUpdated>20220812065248</lastUpdated>
+    <lastUpdated>20220812065510</lastUpdated>
   </versioning>
 </metadata>
