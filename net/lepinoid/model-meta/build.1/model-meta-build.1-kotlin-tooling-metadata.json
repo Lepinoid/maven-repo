@@ -3,7 +3,7 @@
   "buildSystem": "Gradle",
   "buildSystemVersion": "7.4.2",
   "buildPlugin": "org.jetbrains.kotlin.gradle.plugin.KotlinMultiplatformPluginWrapper",
-  "buildPluginVersion": "1.7.10",
+  "buildPluginVersion": "1.7.0",
   "projectSettings": {
     "isHmppEnabled": true,
     "isCompatibilityMetadataVariantEnabled": false,
@@ -40,7 +40,7 @@
       "extras": {
         "native": {
           "konanTarget": "linux_x64",
-          "konanVersion": "1.7.10",
+          "konanVersion": "1.7.0",
           "konanAbiVersion": "1.7.0"
         }
       }

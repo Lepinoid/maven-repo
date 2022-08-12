@@ -28,14 +28,14 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-js",
           "version": {
-            "requires": "1.7.10"
+            "requires": "1.7.0"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.7.10"
+            "requires": "1.7.0"
           }
         },
         {
@@ -71,11 +71,11 @@
         {
           "name": "model-meta-js-build.1.klib",
           "url": "model-meta-js-build.1.klib",
-          "size": 13158,
-          "sha512": "267a20cb2da6091d2e56594ea98175dca8138225128c8d0c234bdb2ef5a755a0c48824efecc83df4088e3007c2ff8c437cee5ec928f63873f4b7cf1ed13d7d0b",
-          "sha256": "f8ea55bafa5bb53202734ec7e49ade662fe4d6324323d54160381ec0b80155b2",
-          "sha1": "d129c5b65f2c11e937425198e6eaa63f07d66979",
-          "md5": "831ee07acf27fe91512321508f0b681d"
+          "size": 13157,
+          "sha512": "f81e2784414a9a154e176d40ba72cc7d6566aabee55e73ce4ab38df7bbcf9d2c33f85514f2b07b2acbc163076a412ec6e98100acaa27a59220b4dd8dd720877d",
+          "sha256": "e750c7ff709fce5328d7c8346fe11d74b5868e98fa86196dc28610923ae9a4d5",
+          "sha1": "aba827bd7ef4835bb5693cfa32e4c59c2b960b4c",
+          "md5": "857d0efc86b0ae9c3ad6650b770593a5"
         }
       ]
     },
@@ -92,14 +92,14 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-js",
           "version": {
-            "requires": "1.7.10"
+            "requires": "1.7.0"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.7.10"
+            "requires": "1.7.0"
           }
         },
         {
@@ -135,11 +135,11 @@
         {
           "name": "model-meta-js-build.1.klib",
           "url": "model-meta-js-build.1.klib",
-          "size": 13158,
-          "sha512": "267a20cb2da6091d2e56594ea98175dca8138225128c8d0c234bdb2ef5a755a0c48824efecc83df4088e3007c2ff8c437cee5ec928f63873f4b7cf1ed13d7d0b",
-          "sha256": "f8ea55bafa5bb53202734ec7e49ade662fe4d6324323d54160381ec0b80155b2",
-          "sha1": "d129c5b65f2c11e937425198e6eaa63f07d66979",
-          "md5": "831ee07acf27fe91512321508f0b681d"
+          "size": 13157,
+          "sha512": "f81e2784414a9a154e176d40ba72cc7d6566aabee55e73ce4ab38df7bbcf9d2c33f85514f2b07b2acbc163076a412ec6e98100acaa27a59220b4dd8dd720877d",
+          "sha256": "e750c7ff709fce5328d7c8346fe11d74b5868e98fa86196dc28610923ae9a4d5",
+          "sha1": "aba827bd7ef4835bb5693cfa32e4c59c2b960b4c",
+          "md5": "857d0efc86b0ae9c3ad6650b770593a5"
         }
       ]
     }

@@ -26,7 +26,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.7.10"
+            "requires": "1.7.0"
           }
         }
       ],
@@ -34,11 +34,11 @@
         {
           "name": "model-meta-metadata-build.1.jar",
           "url": "model-meta-build.1.jar",
-          "size": 4319,
-          "sha512": "a15b78dd3d58b8e7a4dae126d92b46057cb741bfcb24e6389583b1cf1ea9a3c71b2a217dd74d1393864f672fa51cdca8f565090727a88a8521840f09e317ae5d",
-          "sha256": "d1d78957429762950c678c170294674b7f43142fd5403d7ee16a3365ed21929e",
-          "sha1": "efd776e3d65be3fa59638b153847d3363cd0ab86",
-          "md5": "b04d008f8fbac3cf04414459bbaf7a05"
+          "size": 4316,
+          "sha512": "1113e65eafbc5ba9b00bfe42d7c049679fcc541789fa8a69969b49d93e3b26cbba652c86184cc3b4ca84c512b0824efdbf7c465a90e96f33c4b4b129a4821e36",
+          "sha256": "8c271c699371722cf548dd8ce90b766a88abbd9b6b5f2b7a747db137c10ef2fd",
+          "sha1": "7db5d7a94f3dca4c65922e887ec982a579f7737b",
+          "md5": "192a4bcb86a34168361ecb7a5913f7ac"
         }
       ]
     },
