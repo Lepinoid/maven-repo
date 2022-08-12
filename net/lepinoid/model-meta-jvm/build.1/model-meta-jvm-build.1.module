@@ -28,14 +28,14 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-jdk8",
           "version": {
-            "requires": "1.7.0"
+            "requires": "1.7.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.7.0"
+            "requires": "1.7.10"
           }
         }
       ],
@@ -44,10 +44,10 @@
           "name": "model-meta-jvm-build.1.jar",
           "url": "model-meta-jvm-build.1.jar",
           "size": 14264,
-          "sha512": "79f0cc6f0bc0f9250e63d9fa1a9047f6755bb4fe8296fd11badd1700627d77c8a3da3d56168b08d2b1a5ef185b7a742a4ab7a0f338cabc30e2a53f4c85531b12",
-          "sha256": "64479fecd5a52d225a327fb55470acfca659fcb5ffc2d1b402fbb325f9d2e02d",
-          "sha1": "b3989b1423dc5adaee3d5f5a723f60943cd12bbf",
-          "md5": "483cbbf50afe98ea93ed02112acb679a"
+          "sha512": "2a7b4ec9fdcd4c4e7a1bc5a3e6049d9690ced032fd099a5bb5bb71f5d44490106267722df2b8d9ef8d9a88caa77339ed829c75c6d7cb1a9bc532eb380c1e8e92",
+          "sha256": "5fb428d1fa1f46fda7fbdd4e08861b19d7fef03ab6613e2fe0a7e9e86c8b7226",
+          "sha1": "c391fde0e643224cae0b7af0d3cab0a34eef23a0",
+          "md5": "95617ed29b4634f714bc4a842dd9b689"
         }
       ]
     },
@@ -64,14 +64,14 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-jdk8",
           "version": {
-            "requires": "1.7.0"
+            "requires": "1.7.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.7.0"
+            "requires": "1.7.10"
           }
         },
         {
@@ -108,10 +108,10 @@
           "name": "model-meta-jvm-build.1.jar",
           "url": "model-meta-jvm-build.1.jar",
           "size": 14264,
-          "sha512": "79f0cc6f0bc0f9250e63d9fa1a9047f6755bb4fe8296fd11badd1700627d77c8a3da3d56168b08d2b1a5ef185b7a742a4ab7a0f338cabc30e2a53f4c85531b12",
-          "sha256": "64479fecd5a52d225a327fb55470acfca659fcb5ffc2d1b402fbb325f9d2e02d",
-          "sha1": "b3989b1423dc5adaee3d5f5a723f60943cd12bbf",
-          "md5": "483cbbf50afe98ea93ed02112acb679a"
+          "sha512": "2a7b4ec9fdcd4c4e7a1bc5a3e6049d9690ced032fd099a5bb5bb71f5d44490106267722df2b8d9ef8d9a88caa77339ed829c75c6d7cb1a9bc532eb380c1e8e92",
+          "sha256": "5fb428d1fa1f46fda7fbdd4e08861b19d7fef03ab6613e2fe0a7e9e86c8b7226",
+          "sha1": "c391fde0e643224cae0b7af0d3cab0a34eef23a0",
+          "md5": "95617ed29b4634f714bc4a842dd9b689"
         }
       ]
     }
