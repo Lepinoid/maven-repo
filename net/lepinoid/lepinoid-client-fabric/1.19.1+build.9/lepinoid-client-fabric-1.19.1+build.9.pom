@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.lepinoid</groupId>
+  <artifactId>lepinoid-client-fabric</artifactId>
+  <version>1.19.1+build.9</version>
+  <dependencies>
+    <dependency>
+      <groupId>net.lepinoid</groupId>
+      <artifactId>lepinoid-client-protocol</artifactId>
+      <version>1.19.1+build.9</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.LlamaLad7</groupId>
+      <artifactId>MixinExtras</artifactId>
+      <version>0.0.12</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc</groupId>
+      <artifactId>fabric-loader</artifactId>
+      <version>0.14.8</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-api-base</artifactId>
+      <version>0.4.9+e62f51a395</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-command-api-v2</artifactId>
+      <version>2.1.5+0c17ea9695</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-lifecycle-events-v1</artifactId>
+      <version>2.1.0+33fbc73895</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-registry-sync-v0</artifactId>
+      <version>0.9.21+23c4cfef95</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-resource-loader-v0</artifactId>
+      <version>0.5.6+5f1a85e095</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-key-binding-api-v1</artifactId>
+      <version>1.0.18+9ff28f4095</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-networking-api-v1</artifactId>
+      <version>1.2.1+3082331495</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
