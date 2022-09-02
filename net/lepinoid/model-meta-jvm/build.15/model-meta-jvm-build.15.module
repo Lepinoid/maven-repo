@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../model-meta/build.15/model-meta-build.15.module",
+    "group": "net.lepinoid",
+    "module": "model-meta",
+    "version": "build.15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta-jvm-build.15.jar",
+          "url": "model-meta-jvm-build.15.jar",
+          "size": 19775,
+          "sha512": "cc3f87753338fded92f4748a0ffdb2b0e94b13c0e107019447fcb06f42ff6e175c8976f07c2badf596cfc4260d285630b3611a6777195df77bd837df391662d1",
+          "sha256": "8181bcce0eb613d3e40bd2a2c6f41907681484ace03c5dcb001bd7379de22ccf",
+          "sha1": "72451c09d0ccdfddb4db1a280e51f56fd8ac190a",
+          "md5": "268f5b8764949df2edab5d3a5f3a4895"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "uuid-serializer",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "bb-data-structure",
+          "version": {
+            "requires": "build.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta-jvm-build.15.jar",
+          "url": "model-meta-jvm-build.15.jar",
+          "size": 19775,
+          "sha512": "cc3f87753338fded92f4748a0ffdb2b0e94b13c0e107019447fcb06f42ff6e175c8976f07c2badf596cfc4260d285630b3611a6777195df77bd837df391662d1",
+          "sha256": "8181bcce0eb613d3e40bd2a2c6f41907681484ace03c5dcb001bd7379de22ccf",
+          "sha1": "72451c09d0ccdfddb4db1a280e51f56fd8ac190a",
+          "md5": "268f5b8764949df2edab5d3a5f3a4895"
+        }
+      ]
+    }
+  ]
+}
