@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.lepinoid",
+    "module": "model-meta",
+    "version": "build.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta-metadata-build.18.jar",
+          "url": "model-meta-build.18.jar",
+          "size": 4442,
+          "sha512": "d9b89f67e1bd01d1d318038ea2b555943653d0daf9c4353d5d1ac812d4a9d61097663bfdb5cf35125a9cb3ed2a0175981be7f104698d173b01762de658dbed17",
+          "sha256": "27871d06962b5b59344e3e28106b492bf0e6b526e1b3a3922f258095ff3f718d",
+          "sha1": "a3273e5cad23af75a30d6f90c6667a2fe0e31e32",
+          "md5": "f55cf8b1eae84a2884bb10ad61314950"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../model-meta-js/build.18/model-meta-js-build.18.module",
+        "group": "net.lepinoid",
+        "module": "model-meta-js",
+        "version": "build.18"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../model-meta-js/build.18/model-meta-js-build.18.module",
+        "group": "net.lepinoid",
+        "module": "model-meta-js",
+        "version": "build.18"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../model-meta-jvm/build.18/model-meta-jvm-build.18.module",
+        "group": "net.lepinoid",
+        "module": "model-meta-jvm",
+        "version": "build.18"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../model-meta-jvm/build.18/model-meta-jvm-build.18.module",
+        "group": "net.lepinoid",
+        "module": "model-meta-jvm",
+        "version": "build.18"
+      }
+    },
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../model-meta-native/build.18/model-meta-native-build.18.module",
+        "group": "net.lepinoid",
+        "module": "model-meta-native",
+        "version": "build.18"
+      }
+    }
+  ]
+}
