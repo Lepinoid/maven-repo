@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "1.1.0",
+  "buildSystem": "Gradle",
+  "buildSystemVersion": "7.5.1",
+  "buildPlugin": "org.jetbrains.kotlin.gradle.plugin.KotlinMultiplatformPluginWrapper",
+  "buildPluginVersion": "1.7.21",
+  "projectSettings": {
+    "isHmppEnabled": true,
+    "isCompatibilityMetadataVariantEnabled": false,
+    "isKPMEnabled": false
+  },
+  "projectTargets": [
+    {
+      "target": "org.jetbrains.kotlin.gradle.targets.js.ir.KotlinJsIrTarget",
+      "platformType": "js",
+      "extras": {
+        "js": {
+          "isBrowserConfigured": true,
+          "isNodejsConfigured": false
+        }
+      }
+    },
+    {
+      "target": "org.jetbrains.kotlin.gradle.targets.jvm.KotlinJvmTarget",
+      "platformType": "jvm",
+      "extras": {
+        "jvm": {
+          "jvmTarget": "17",
+          "withJavaEnabled": false
+        }
+      }
+    },
+    {
+      "target": "org.jetbrains.kotlin.gradle.plugin.mpp.KotlinMetadataTarget",
+      "platformType": "common"
+    },
+    {
+      "target": "org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTargetWithHostTests",
+      "platformType": "native",
+      "extras": {
+        "native": {
+          "konanTarget": "linux_x64",
+          "konanVersion": "1.7.21",
+          "konanAbiVersion": "1.7.0"
+        }
+      }
+    }
+  ]
+}
