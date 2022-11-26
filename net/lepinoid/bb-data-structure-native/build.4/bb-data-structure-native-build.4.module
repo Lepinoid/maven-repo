@@ -1,0 +1,70 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../bb-data-structure/build.4/bb-data-structure-build.4.module",
+    "group": "net.lepinoid",
+    "module": "bb-data-structure",
+    "version": "build.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "uuid-serializer",
+          "version": {
+            "requires": "1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bb-data-structure.klib",
+          "url": "bb-data-structure-native-build.4.klib",
+          "size": 146659,
+          "sha512": "50da349fc66a45a9e8011ac9f0800663c389243f6fe9d190b72d9ef12ffc06b5aa80a879e968e59eba597177d10289b29748113a55a519e24068b8ea09955b04",
+          "sha256": "3c33b2f779d87aab813af671e469e17d37148b99d9b4b678d35748b09bdc538e",
+          "sha1": "164b5963efad2cf627fd530794c4a2b53763a2ff",
+          "md5": "9803133d1a8a30251ea4439f30fe8dea"
+        }
+      ]
+    }
+  ]
+}
