@@ -3,8 +3,8 @@
   <groupId>net.lepinoid</groupId>
   <artifactId>model-meta</artifactId>
   <versioning>
-    <latest>build.19</latest>
-    <release>build.19</release>
+    <latest>build.20</latest>
+    <release>build.20</release>
     <versions>
       <version>1.0</version>
       <version>1.1</version>
@@ -26,7 +26,8 @@
       <version>build.17</version>
       <version>build.18</version>
       <version>build.19</version>
+      <version>build.20</version>
     </versions>
-    <lastUpdated>20221111080741</lastUpdated>
+    <lastUpdated>20221202073835</lastUpdated>
   </versioning>
 </metadata>

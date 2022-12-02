@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../model-meta/build.20/model-meta-build.20.module",
+    "group": "net.lepinoid",
+    "module": "model-meta",
+    "version": "build.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.7.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "uuid-serializer",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "bb-data-structure",
+          "version": {
+            "requires": "0.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta-js-build.20.klib",
+          "url": "model-meta-js-build.20.klib",
+          "size": 15150,
+          "sha512": "67cc3ce5a7497d3c7b0c542872e50c969d79ffca6fa9707287774d565e6486484ba708cd5a369dbc65b804002080a9e15ecb4b5b97464ad6e5ac43784901fca0",
+          "sha256": "77f278078c8f9dff179328a2ba67661b6197832b7ef52896812cf98570770b60",
+          "sha1": "c113e90ada5929ab79f31fcda2227067d0011e44",
+          "md5": "f42829ee02a82d14611e773927ef6df7"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.7.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "uuid-serializer",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "bb-data-structure",
+          "version": {
+            "requires": "0.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta-js-build.20.klib",
+          "url": "model-meta-js-build.20.klib",
+          "size": 15150,
+          "sha512": "67cc3ce5a7497d3c7b0c542872e50c969d79ffca6fa9707287774d565e6486484ba708cd5a369dbc65b804002080a9e15ecb4b5b97464ad6e5ac43784901fca0",
+          "sha256": "77f278078c8f9dff179328a2ba67661b6197832b7ef52896812cf98570770b60",
+          "sha1": "c113e90ada5929ab79f31fcda2227067d0011e44",
+          "md5": "f42829ee02a82d14611e773927ef6df7"
+        }
+      ]
+    }
+  ]
+}
