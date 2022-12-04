@@ -3,8 +3,8 @@
   <groupId>net.lepinoid</groupId>
   <artifactId>model-meta-js</artifactId>
   <versioning>
-    <latest>build.21</latest>
-    <release>build.21</release>
+    <latest>build.22</latest>
+    <release>build.22</release>
     <versions>
       <version>1.0</version>
       <version>1.1</version>
@@ -28,7 +28,8 @@
       <version>build.19</version>
       <version>build.20</version>
       <version>build.21</version>
+      <version>build.22</version>
     </versions>
-    <lastUpdated>20221204082144</lastUpdated>
+    <lastUpdated>20221204091015</lastUpdated>
   </versioning>
 </metadata>
