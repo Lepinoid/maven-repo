@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../uuid-serializer/1.2/uuid-serializer-1.2.module",
+    "group": "net.lepinoid",
+    "module": "uuid-serializer",
+    "version": "1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uuid-serializer.klib",
+          "url": "uuid-serializer-native-1.2.klib",
+          "size": 6586,
+          "sha512": "f7f12ce24a964cb5c2cdba7109c69c6bc81040022420fe8cc9b3f504a197f550194552b673b600a3b993d976bf9daeaf653201f4da8dbbd4b90b2cb02384491f",
+          "sha256": "6830a506d09606825afb2e335adfc7aa658a727b77867e503affab6d6dc48ed1",
+          "sha1": "d52ec208e4a422edc0aa8cc04e9d5e52ea14d1ed",
+          "md5": "3d5c2f901c7a781f8586e938a54e99d3"
+        }
+      ]
+    },
+    {
+      "name": "nativeSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "uuid-serializer-native-1.2-sources.jar",
+          "url": "uuid-serializer-native-1.2-sources.jar",
+          "size": 782,
+          "sha512": "28bd3d6bbc69190a7cbdc28d40b1b8456fb4ad90d6d79d1c95154e6f10a11b6253d6831f6be57a54848dd6ce8700aee49f2d8a233a0e02731f3d0128f30a5a80",
+          "sha256": "f6a9749a43e90316949b4c3ff1d2a14cd82779e3e39c6fcedf895e0455755d2b",
+          "sha1": "21f128ed72cff5c6313812a5ecbe32f3ee76dba2",
+          "md5": "2af842bfcd250c12c01df32fe82c6019"
+        }
+      ]
+    }
+  ]
+}

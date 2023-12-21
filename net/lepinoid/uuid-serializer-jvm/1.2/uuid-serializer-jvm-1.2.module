@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../uuid-serializer/1.2/uuid-serializer-1.2.module",
+    "group": "net.lepinoid",
+    "module": "uuid-serializer",
+    "version": "1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uuid-serializer-jvm-1.2.jar",
+          "url": "uuid-serializer-jvm-1.2.jar",
+          "size": 2275,
+          "sha512": "28cfe2bc1694e5ceecd2b5fba19e05f38cb35c67c0f335b73660644a7f55918c1961aeb1fa51e99be459041cc37e962f76aa5b9ba5e0c6d694307c4188870606",
+          "sha256": "288b42450014fa2ad53e5f08f694a3e0fc1f1a62f7ac6bcece1a4004765b2af3",
+          "sha1": "43940945d395b2e17f221843c77bac739c9f3182",
+          "md5": "86ba16e638e7645f3f53458e29f49f57"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uuid-serializer-jvm-1.2.jar",
+          "url": "uuid-serializer-jvm-1.2.jar",
+          "size": 2275,
+          "sha512": "28cfe2bc1694e5ceecd2b5fba19e05f38cb35c67c0f335b73660644a7f55918c1961aeb1fa51e99be459041cc37e962f76aa5b9ba5e0c6d694307c4188870606",
+          "sha256": "288b42450014fa2ad53e5f08f694a3e0fc1f1a62f7ac6bcece1a4004765b2af3",
+          "sha1": "43940945d395b2e17f221843c77bac739c9f3182",
+          "md5": "86ba16e638e7645f3f53458e29f49f57"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "uuid-serializer-jvm-1.2-sources.jar",
+          "url": "uuid-serializer-jvm-1.2-sources.jar",
+          "size": 782,
+          "sha512": "28bd3d6bbc69190a7cbdc28d40b1b8456fb4ad90d6d79d1c95154e6f10a11b6253d6831f6be57a54848dd6ce8700aee49f2d8a233a0e02731f3d0128f30a5a80",
+          "sha256": "f6a9749a43e90316949b4c3ff1d2a14cd82779e3e39c6fcedf895e0455755d2b",
+          "sha1": "21f128ed72cff5c6313812a5ecbe32f3ee76dba2",
+          "md5": "2af842bfcd250c12c01df32fe82c6019"
+        }
+      ]
+    }
+  ]
+}
