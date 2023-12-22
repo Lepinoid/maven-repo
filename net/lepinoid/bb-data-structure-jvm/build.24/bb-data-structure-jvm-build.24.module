@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../bb-data-structure/build.24/bb-data-structure-build.24.module",
+    "group": "net.lepinoid",
+    "module": "bb-data-structure",
+    "version": "build.24",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bb-data-structure-jvm-build.24.jar",
+          "url": "bb-data-structure-jvm-build.24.jar",
+          "size": 282942,
+          "sha512": "712b2d60e852ef23a7c3f123b160debd5c5386cb2140812a2b874aa204d6b34c68f5fb233463a170cde10ba5a93ad4e8adeb9e5279e0033f984dd4d8ac275a38",
+          "sha256": "936b9c96aeae628e8b98683e9b2b7aa2cda8d85f60f5cdf3fdeb2b97a057d782",
+          "sha1": "47f0ae118e07f131e531a12f4da33df0240df6b9",
+          "md5": "52a876bf182d086176240f0600cde529"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.8.2"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "uuid-serializer",
+          "version": {
+            "requires": "1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bb-data-structure-jvm-build.24.jar",
+          "url": "bb-data-structure-jvm-build.24.jar",
+          "size": 282942,
+          "sha512": "712b2d60e852ef23a7c3f123b160debd5c5386cb2140812a2b874aa204d6b34c68f5fb233463a170cde10ba5a93ad4e8adeb9e5279e0033f984dd4d8ac275a38",
+          "sha256": "936b9c96aeae628e8b98683e9b2b7aa2cda8d85f60f5cdf3fdeb2b97a057d782",
+          "sha1": "47f0ae118e07f131e531a12f4da33df0240df6b9",
+          "md5": "52a876bf182d086176240f0600cde529"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "bb-data-structure-jvm-build.24-sources.jar",
+          "url": "bb-data-structure-jvm-build.24-sources.jar",
+          "size": 15940,
+          "sha512": "bf3fcc9722e2542da2b8a91b52bc86dd09d3c98a31d7af3a941eb3c1aa78a20e5babd866f0de347983f8b77a5f2c2fdf6baf482e73c364bb0d4b1341f7c1664e",
+          "sha256": "504d5593bc3e1405dfb042bd233fbc95e24339e7ea5585c5171395d2f5f3fdba",
+          "sha1": "a41cabdd3822425292ef1881a3dac0d800d2ddf1",
+          "md5": "dacc82048b2d2df33ce438e38c7e2cc1"
+        }
+      ]
+    }
+  ]
+}
