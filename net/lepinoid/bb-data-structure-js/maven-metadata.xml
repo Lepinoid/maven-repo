@@ -3,8 +3,8 @@
   <groupId>net.lepinoid</groupId>
   <artifactId>bb-data-structure-js</artifactId>
   <versioning>
-    <latest>build.25</latest>
-    <release>build.25</release>
+    <latest>build.26</latest>
+    <release>build.26</release>
     <versions>
       <version>0.1.0</version>
       <version>0.1.1</version>
@@ -19,7 +19,8 @@
       <version>build.7</version>
       <version>build.24</version>
       <version>build.25</version>
+      <version>build.26</version>
     </versions>
-    <lastUpdated>20231229043234</lastUpdated>
+    <lastUpdated>20240207080659</lastUpdated>
   </versioning>
 </metadata>
