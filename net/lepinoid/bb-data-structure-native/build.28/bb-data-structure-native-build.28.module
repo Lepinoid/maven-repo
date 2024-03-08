@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../bb-data-structure/build.28/bb-data-structure-build.28.module",
+    "group": "net.lepinoid",
+    "module": "bb-data-structure",
+    "version": "build.28",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.8.2"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "uuid-serializer",
+          "version": {
+            "requires": "1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bb-data-structure.klib",
+          "url": "bb-data-structure-native-build.28.klib",
+          "size": 183032,
+          "sha512": "b0aeb54d81cc4349605957b66505bcd108f6bedf025ef287b4c91fdda94ad3585554eef3640191d2312a339cede07776248a2ea61db257718ed75e009f971598",
+          "sha256": "f79a673cce1349aaf5ab48d88d44bbe3f0d9cbc62a1d8ff86e6c1f6937660db7",
+          "sha1": "b9865937f7a1f10918de1b4a167e3cb7b56190c8",
+          "md5": "21532934c954f65a1b091c8144f66ef3"
+        }
+      ]
+    },
+    {
+      "name": "nativeSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "bb-data-structure-native-build.28-sources.jar",
+          "url": "bb-data-structure-native-build.28-sources.jar",
+          "size": 15940,
+          "sha512": "bf3fcc9722e2542da2b8a91b52bc86dd09d3c98a31d7af3a941eb3c1aa78a20e5babd866f0de347983f8b77a5f2c2fdf6baf482e73c364bb0d4b1341f7c1664e",
+          "sha256": "504d5593bc3e1405dfb042bd233fbc95e24339e7ea5585c5171395d2f5f3fdba",
+          "sha1": "a41cabdd3822425292ef1881a3dac0d800d2ddf1",
+          "md5": "dacc82048b2d2df33ce438e38c7e2cc1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../bb-data-structure/build.28/bb-data-structure-build.28.module",
+    "group": "net.lepinoid",
+    "module": "bb-data-structure",
+    "version": "build.28",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bb-data-structure-js-build.28.klib",
+          "url": "bb-data-structure-js-build.28.klib",
+          "size": 195206,
+          "sha512": "26acdb80b001f13aa539ab566d8a1471de476b3058fdcb4bc992796a4d57dfe84d5760c20b3bf41928d8821c921e1ce2c47f8c7466d63dcadf5eafd876f695da",
+          "sha256": "023b2d53290927e9f73173942420a1148e71078060f03bceb94de70cbc15d861",
+          "sha1": "3bc9ca0a04e1221d31ccd15073399ad4e6319c08",
+          "md5": "eaf1f4049ca9e9654949bc37486e6f8b"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.8.2"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "uuid-serializer",
+          "version": {
+            "requires": "1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bb-data-structure-js-build.28.klib",
+          "url": "bb-data-structure-js-build.28.klib",
+          "size": 195206,
+          "sha512": "26acdb80b001f13aa539ab566d8a1471de476b3058fdcb4bc992796a4d57dfe84d5760c20b3bf41928d8821c921e1ce2c47f8c7466d63dcadf5eafd876f695da",
+          "sha256": "023b2d53290927e9f73173942420a1148e71078060f03bceb94de70cbc15d861",
+          "sha1": "3bc9ca0a04e1221d31ccd15073399ad4e6319c08",
+          "md5": "eaf1f4049ca9e9654949bc37486e6f8b"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "bb-data-structure-js-build.28-sources.jar",
+          "url": "bb-data-structure-js-build.28-sources.jar",
+          "size": 15940,
+          "sha512": "bf3fcc9722e2542da2b8a91b52bc86dd09d3c98a31d7af3a941eb3c1aa78a20e5babd866f0de347983f8b77a5f2c2fdf6baf482e73c364bb0d4b1341f7c1664e",
+          "sha256": "504d5593bc3e1405dfb042bd233fbc95e24339e7ea5585c5171395d2f5f3fdba",
+          "sha1": "a41cabdd3822425292ef1881a3dac0d800d2ddf1",
+          "md5": "dacc82048b2d2df33ce438e38c7e2cc1"
+        }
+      ]
+    }
+  ]
+}
