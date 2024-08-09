@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../model-meta/build.30/model-meta-build.30.module",
+    "group": "net.lepinoid",
+    "module": "model-meta",
+    "version": "build.30",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.8.4"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "uuid-serializer",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "net.lepinoid",
+          "module": "bb-data-structure",
+          "version": {
+            "requires": "build.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "model-meta.klib",
+          "url": "model-meta-native-build.30.klib",
+          "size": 19905,
+          "sha512": "c74767312b2e41e898042fdd9b096d6ebb4b10edf7e13c9b0a61f74ce44b9952abdbf7f0e87f898bf5ea1ac03b8e87748107b2f8e621720ad011ca781e9b2793",
+          "sha256": "f92fd99014f940a9c71b4bf21671011047e827f2956c334ac14875aa5b8504de",
+          "sha1": "27507ff55fbf994fa948440b1a619b17f5c202fc",
+          "md5": "e83f3c8e0139e0f453f2140474fdcd3f"
+        }
+      ]
+    },
+    {
+      "name": "nativeSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "model-meta-native-build.30-sources.jar",
+          "url": "model-meta-native-build.30-sources.jar",
+          "size": 1056,
+          "sha512": "23a3302c46dcac55a9f7e8b79bd4fd2bf8e3c3a334c2b8d80900363242aacbab979abbfb68225adc18fa3a72bbcac998cb2da2831acb989e790da4913965ade8",
+          "sha256": "695be92ff69a8c77161f44f8dde0fc0b9e53fa5179fe8e8e95fff65a0c561532",
+          "sha1": "a80c62218de71f380ffa5ed56ab71c894a905184",
+          "md5": "92f497249536faaf692eafc223da5578"
+        }
+      ]
+    }
+  ]
+}
