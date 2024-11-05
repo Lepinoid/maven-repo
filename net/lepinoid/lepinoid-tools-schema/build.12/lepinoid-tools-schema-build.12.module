@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.lepinoid",
+    "module": "lepinoid-tools-schema",
+    "version": "build.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lepinoid-tools-schema-build.12.jar",
+          "url": "lepinoid-tools-schema-build.12.jar",
+          "size": 7510,
+          "sha512": "d3b13da0d4a31bfeb8dad36a6c7416363a3d83aaacc3d4a265ca1c25957a892cabbda5e75b9442986887b60c7be95cd36c70c9de73070b516b01276b23da257d",
+          "sha256": "218de5187afdd8e38fa7ba19853cc0068c97168fb397caaacf9ad896b2020ade",
+          "sha1": "7ce75c4c84fcfd221f79ec1c3892ff84e9d935a9",
+          "md5": "c217ebd185d8410bf3a60efe0d77496c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core-jvm",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json-jvm",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lepinoid-tools-schema-build.12.jar",
+          "url": "lepinoid-tools-schema-build.12.jar",
+          "size": 7510,
+          "sha512": "d3b13da0d4a31bfeb8dad36a6c7416363a3d83aaacc3d4a265ca1c25957a892cabbda5e75b9442986887b60c7be95cd36c70c9de73070b516b01276b23da257d",
+          "sha256": "218de5187afdd8e38fa7ba19853cc0068c97168fb397caaacf9ad896b2020ade",
+          "sha1": "7ce75c4c84fcfd221f79ec1c3892ff84e9d935a9",
+          "md5": "c217ebd185d8410bf3a60efe0d77496c"
+        }
+      ]
+    }
+  ]
+}
