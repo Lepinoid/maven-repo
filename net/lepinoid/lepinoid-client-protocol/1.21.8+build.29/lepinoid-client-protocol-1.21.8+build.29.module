@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.lepinoid",
+    "module": "lepinoid-client-protocol",
+    "version": "1.21.8+build.29",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lepinoid-client-protocol-1.21.8+build.29.jar",
+          "url": "lepinoid-client-protocol-1.21.8+build.29.jar",
+          "size": 27441,
+          "sha512": "ae4d632846a324802864815bcd9f682965c5e254354677b07a5a047e771f692d0371e08085b50bf81ed2ce5bb742bd5d1b2fcf76f9131fd29a6d91f5e4098564",
+          "sha256": "d7d047aca8c5be59173ac604e3994101aeb90d311b8f3b29439d4ef99c2bc035",
+          "sha1": "3ba73dfb1632eb4b5cd863e278a749e91a85bcc9",
+          "md5": "99df575441992d4199139c72728a470a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-networking-api-v1",
+          "version": {
+            "requires": "5.1.0+57cb96dd2c"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lepinoid-client-protocol-1.21.8+build.29.jar",
+          "url": "lepinoid-client-protocol-1.21.8+build.29.jar",
+          "size": 27441,
+          "sha512": "ae4d632846a324802864815bcd9f682965c5e254354677b07a5a047e771f692d0371e08085b50bf81ed2ce5bb742bd5d1b2fcf76f9131fd29a6d91f5e4098564",
+          "sha256": "d7d047aca8c5be59173ac604e3994101aeb90d311b8f3b29439d4ef99c2bc035",
+          "sha1": "3ba73dfb1632eb4b5cd863e278a749e91a85bcc9",
+          "md5": "99df575441992d4199139c72728a470a"
+        }
+      ]
+    }
+  ]
+}
