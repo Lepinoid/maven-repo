@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.lepinoid",
+    "module": "lepinoid-client-fabric",
+    "version": "issue-3+build.31",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lepinoid-client-fabric-issue-3+build.31.jar",
+          "url": "lepinoid-client-fabric-issue-3+build.31.jar",
+          "size": 72264,
+          "sha512": "ccdbd171875272adf0025c28ff9d1bc94774c6a1ae5dd3ef58da2050dac2d1c718b6759f47c366051468612b6dc0b856e4c4fff7d332c47a31ce046bd3e3a2ab",
+          "sha256": "fa4b1e54de9950880dfd439e52fe48458989b3011a5faeaf44c69c5a3b7f84ec",
+          "sha1": "7110fa784e6513814b88eb3caf5bc83229349f1b",
+          "md5": "8bf4cc5cb51029d4f5c27d4162ae4fdb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.lepinoid",
+          "module": "lepinoid-client-protocol",
+          "version": {
+            "requires": "issue-3+build.31"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "0.5.0+cd8c0daa2c"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-command-api-v2",
+          "version": {
+            "requires": "2.3.1+52fff9ec2c"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-lifecycle-events-v1",
+          "version": {
+            "requires": "2.6.4+db4dfd852c"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-registry-sync-v0",
+          "version": {
+            "requires": "6.1.30+946bf4c32c"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-resource-loader-v0",
+          "version": {
+            "requires": "3.1.12+020423442c"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-key-binding-api-v1",
+          "version": {
+            "requires": "1.0.65+946bf4c32c"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-networking-api-v1",
+          "version": {
+            "requires": "5.1.0+57cb96dd2c"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lepinoid-client-fabric-issue-3+build.31.jar",
+          "url": "lepinoid-client-fabric-issue-3+build.31.jar",
+          "size": 72264,
+          "sha512": "ccdbd171875272adf0025c28ff9d1bc94774c6a1ae5dd3ef58da2050dac2d1c718b6759f47c366051468612b6dc0b856e4c4fff7d332c47a31ce046bd3e3a2ab",
+          "sha256": "fa4b1e54de9950880dfd439e52fe48458989b3011a5faeaf44c69c5a3b7f84ec",
+          "sha1": "7110fa784e6513814b88eb3caf5bc83229349f1b",
+          "md5": "8bf4cc5cb51029d4f5c27d4162ae4fdb"
+        }
+      ]
+    }
+  ]
+}

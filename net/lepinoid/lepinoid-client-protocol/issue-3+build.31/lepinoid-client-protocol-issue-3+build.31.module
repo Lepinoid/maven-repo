@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.lepinoid",
+    "module": "lepinoid-client-protocol",
+    "version": "issue-3+build.31",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lepinoid-client-protocol-issue-3+build.31.jar",
+          "url": "lepinoid-client-protocol-issue-3+build.31.jar",
+          "size": 27444,
+          "sha512": "fbc1cd28cf9e03663e4622d1370e3cfb20826c7fa3760cae82349fa08f315ccb550ed19406172030a81074f279d6244267392ca7b6aa580c54bd9d1aa90dd4a4",
+          "sha256": "4d9dc7f000b2befff5636cb8836660216b99c7a9940c6943d483f8b4b3fa80ce",
+          "sha1": "f535cb78ecffd4404c703d395c65ffdc7fa733a9",
+          "md5": "a2967f5345ae0358e2c6ef176be6339c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-networking-api-v1",
+          "version": {
+            "requires": "5.1.0+57cb96dd2c"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lepinoid-client-protocol-issue-3+build.31.jar",
+          "url": "lepinoid-client-protocol-issue-3+build.31.jar",
+          "size": 27444,
+          "sha512": "fbc1cd28cf9e03663e4622d1370e3cfb20826c7fa3760cae82349fa08f315ccb550ed19406172030a81074f279d6244267392ca7b6aa580c54bd9d1aa90dd4a4",
+          "sha256": "4d9dc7f000b2befff5636cb8836660216b99c7a9940c6943d483f8b4b3fa80ce",
+          "sha1": "f535cb78ecffd4404c703d395c65ffdc7fa733a9",
+          "md5": "a2967f5345ae0358e2c6ef176be6339c"
+        }
+      ]
+    }
+  ]
+}
