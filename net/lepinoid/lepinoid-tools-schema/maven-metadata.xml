@@ -3,13 +3,14 @@
   <groupId>net.lepinoid</groupId>
   <artifactId>lepinoid-tools-schema</artifactId>
   <versioning>
-    <latest>build.16</latest>
-    <release>build.16</release>
+    <latest>build.17</latest>
+    <release>build.17</release>
     <versions>
       <version>build.10</version>
       <version>build.12</version>
       <version>build.16</version>
+      <version>build.17</version>
     </versions>
-    <lastUpdated>20260921115921</lastUpdated>
+    <lastUpdated>20260925164033</lastUpdated>
   </versioning>
 </metadata>
