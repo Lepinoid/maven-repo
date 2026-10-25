@@ -6,9 +6,7 @@
     <latest>1.21.8+build.32</latest>
     <release>1.21.8+build.32</release>
     <versions>
-      <version>1.19+build.1</version>
       <version>1.19.1+build.1</version>
-      <version>1.19+build.2</version>
       <version>1.19.1+build.2</version>
       <version>1.19.1+build.3</version>
       <version>1.19.1+build.4</version>
@@ -27,6 +25,6 @@
       <version>1.21.8+build.30</version>
       <version>1.21.8+build.32</version>
     </versions>
-    <lastUpdated>20261025125842</lastUpdated>
+    <lastUpdated>20261025132423</lastUpdated>
   </versioning>
 </metadata>
