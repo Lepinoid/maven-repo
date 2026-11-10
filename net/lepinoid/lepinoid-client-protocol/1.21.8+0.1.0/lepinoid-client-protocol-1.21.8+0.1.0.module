@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.lepinoid",
+    "module": "lepinoid-client-protocol",
+    "version": "1.21.8+0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lepinoid-client-protocol-1.21.8+0.1.0.jar",
+          "url": "lepinoid-client-protocol-1.21.8+0.1.0.jar",
+          "size": 133302,
+          "sha512": "a5d37760adbc735f6fdc44bb7a0703cec4907f6ca03bef0a270e6ac669cd6f3c21e0c009380443d2ce1994472278bd642f749ba8946b9da11a89300fdb2df724",
+          "sha256": "8502208c4d7c16823322a4439f54ddd6275a1f427adc8400946f89767f845fdd",
+          "sha1": "89a48bde3ed344ee0cfa5028cf54beba239eec3f",
+          "md5": "2103c5fc669fbcd5c4f8bae250c5ef40"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-networking-api-v1",
+          "version": {
+            "requires": "5.1.0+57cb96dd2c"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lepinoid-client-protocol-1.21.8+0.1.0.jar",
+          "url": "lepinoid-client-protocol-1.21.8+0.1.0.jar",
+          "size": 133302,
+          "sha512": "a5d37760adbc735f6fdc44bb7a0703cec4907f6ca03bef0a270e6ac669cd6f3c21e0c009380443d2ce1994472278bd642f749ba8946b9da11a89300fdb2df724",
+          "sha256": "8502208c4d7c16823322a4439f54ddd6275a1f427adc8400946f89767f845fdd",
+          "sha1": "89a48bde3ed344ee0cfa5028cf54beba239eec3f",
+          "md5": "2103c5fc669fbcd5c4f8bae250c5ef40"
+        }
+      ]
+    }
+  ]
+}
