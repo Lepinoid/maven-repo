@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.lepinoid",
+    "module": "lepinoid-client-protocol",
+    "version": "1.21.8+build.65",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lepinoid-client-protocol-1.21.8+build.65.jar",
+          "url": "lepinoid-client-protocol-1.21.8+build.65.jar",
+          "size": 175736,
+          "sha512": "6be518867865feebbf99ad8fa695bfbeb78c92cd31513b605d02f4a352031f31a369130a8e045e142447571063bd2fa1f76f5cec627616216d5b652544a44faf",
+          "sha256": "4cfa677a67191298673db8ba1915dfdc43e7deea6f4a7e1a0fadfcfd229db13a",
+          "sha1": "b55e78cbce97b653188ac20486560a10117315da",
+          "md5": "86c998b624851f98e795323a732ce7ea"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-networking-api-v1",
+          "version": {
+            "requires": "5.1.0+57cb96dd2c"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lepinoid-client-protocol-1.21.8+build.65.jar",
+          "url": "lepinoid-client-protocol-1.21.8+build.65.jar",
+          "size": 175736,
+          "sha512": "6be518867865feebbf99ad8fa695bfbeb78c92cd31513b605d02f4a352031f31a369130a8e045e142447571063bd2fa1f76f5cec627616216d5b652544a44faf",
+          "sha256": "4cfa677a67191298673db8ba1915dfdc43e7deea6f4a7e1a0fadfcfd229db13a",
+          "sha1": "b55e78cbce97b653188ac20486560a10117315da",
+          "md5": "86c998b624851f98e795323a732ce7ea"
+        }
+      ]
+    }
+  ]
+}
